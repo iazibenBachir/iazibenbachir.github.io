@@ -1,0 +1,40 @@
+#form {
+  margin-bottom: 30px;
+  .form-group {
+    input {
+      margin-bottom: 3px;
+      margin-top: 10px;
+      background: $light-navy;
+      border-color: $white;
+    }
+    textarea {
+      background: $light-navy;
+      border-color: $white;
+    }
+    &.success {
+      input,
+      textarea {
+        border-color: $green;
+      }
+    }
+    &.error {
+      input,
+      textarea {
+        border-color: #ff3860;
+      }
+    }
+    .error {
+      color: #ff3860;
+      font-size: 12px;
+      height: 15px;
+    }
+  }
+  .msg-sent {
+    padding: 10px 20px;
+    margin-bottom: 1rem;
+    color: $navy;
+    border-radius: 5px;
+    background: $green;
+    display: none;
+  }
+}

@@ -1,0 +1,45 @@
+header{
+  height: 100vh;
+  .navbar {
+    .navbar-toggler-icon .fas  {
+      color: $green !important;
+      font-size: 28px;
+    }
+    .navbar-brand img {
+      width: 35px;
+      height: auto;
+    }
+    .nav-link {
+      color: $lightest-slate;
+      span {
+        color: $green;
+        margin-right: 3px;
+      }
+    }
+  }
+  /* SHOWCASE AREA*/
+#showcase {
+  position: absolute;
+  top:50%;
+transform: translateY(-50%);
+
+  .hi {
+    font-size: $fz-sm;
+    color: $green;
+  }
+  .name {
+    font-size: $fz-xxl;
+    color: $white;
+    @include medium {
+      font-size: $fz-xl;
+    }
+    @include small {
+      font-size: $fz-md;
+    }
+  }
+  .description {
+    font-size: $fz-xs;
+    margin-bottom: 3rem;
+  }
+}
+}
