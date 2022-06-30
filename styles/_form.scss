@@ -8,6 +8,8 @@
       border-color: $white;
     }
     textarea {
+      margin-bottom: 3px;
+      margin-top: 10px;
       background: $light-navy;
       border-color: $white;
     }
@@ -31,7 +33,7 @@
   }
   .msg-sent {
     padding: 10px 20px;
-    margin-bottom: 1rem;
+    margin-bottom: rem;
     color: $navy;
     border-radius: 5px;
     background: $green;

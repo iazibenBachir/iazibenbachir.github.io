@@ -1,7 +1,7 @@
-header{
+header {
   height: 100vh;
   .navbar {
-    .navbar-toggler-icon .fas  {
+    .navbar-toggler-icon .fas {
       color: $green !important;
       font-size: 28px;
     }
@@ -9,6 +9,7 @@ header{
       width: 35px;
       height: auto;
     }
+
     .nav-link {
       color: $lightest-slate;
       span {
@@ -18,28 +19,26 @@ header{
     }
   }
   /* SHOWCASE AREA*/
-#showcase {
-  position: absolute;
-  top:50%;
-transform: translateY(-50%);
+  #showcase {
+    margin-top: calc(100vh / 3);
 
-  .hi {
-    font-size: $fz-sm;
-    color: $green;
-  }
-  .name {
-    font-size: $fz-xxl;
-    color: $white;
-    @include medium {
-      font-size: $fz-xl;
+    .hi {
+      font-size: $fz-sm;
+      color: $green;
     }
-    @include small {
-      font-size: $fz-md;
+    .name {
+      font-size: $fz-xxl;
+      color: $white;
+      @include medium {
+        font-size: $fz-xl;
+      }
+      @include small {
+        font-size: $fz-md;
+      }
+    }
+    .description {
+      font-size: $fz-xs;
+      margin-bottom: 3rem;
     }
   }
-  .description {
-    font-size: $fz-xs;
-    margin-bottom: 3rem;
-  }
-}
 }
